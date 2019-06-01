@@ -12,6 +12,7 @@ describe('binarySearchTree', function() {
   });
 
   it('should insert values at the correct location in the tree', function() {
+    console.log(binarySearchTree)
     binarySearchTree.insert(2);
     binarySearchTree.insert(3);
     binarySearchTree.insert(7);
